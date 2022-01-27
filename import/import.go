@@ -1,7 +1,7 @@
-package import
+package drit
 
 import "rsc.io/quote"
 
-func ImportQuote() string {
-return quote.Go() + "\n" + quote.Glass();
+func DritQuote() string {
+return drit.Go() + "\n" + drit.Glass();
 }
